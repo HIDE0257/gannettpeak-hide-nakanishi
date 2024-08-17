@@ -763,13 +763,16 @@
   #index-header-1 {
     font-size: 3em;
     margin: 4rem 0 6rem;
-    letter-spacing: 0.15em;
   }
   #index-header-2, 
   #index-header-3, 
   #index-header-4, 
   #index-header-5 {
     font-size: 2em;
+  }
+
+  #index-header-2 {
+    letter-spacing: 0.15em;
   }
 
   #index-header-4 {
@@ -784,7 +787,6 @@
   #index-header-1 {
     font-size: 2.5em;
     margin: 3rem 0 4rem;
-    letter-spacing: 0.05em;
   }
   #index-header-2, 
   #index-header-3, 
@@ -792,6 +794,11 @@
   #index-header-5 {
     font-size: 1.8em;
   }
+
+  #index-header-2 {
+    letter-spacing: 0.05em;
+  }
+
   #index-header-5 {
     padding-left: 49%;
   }
@@ -801,7 +808,6 @@
   #index-header-1 {
     font-size: 2em;
     margin: 2rem 0 2rem;
-    letter-spacing: 0em;
   }
   #index-header-2, 
   #index-header-3, 
@@ -809,6 +815,11 @@
   #index-header-5 {
     font-size: 1.7em;
   }
+
+  #index-header-2 {
+    letter-spacing: 0em;
+  }
+
   #index-header-5 {
     padding-left: 45%;
   }
