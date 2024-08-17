@@ -582,9 +582,9 @@
   /* Remove box shadow */
 }
 
-@media (min-width: 300px) {
+@media (min-width: 375px) {
   .bordered-text {
-    font-size: 2.4rem;
+    font-size: 2.4rem !important;
   }
 
   .lang-menu {
@@ -597,7 +597,7 @@
 
 @media (min-width: 440px) {
   .bordered-text {
-    font-size: 2.7rem;
+    font-size: 2.7rem !important;
   }
 
   .lang-menu {
@@ -610,7 +610,7 @@
 
 @media (min-width: 576px) {
   .bordered-text {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
 
   .lang-menu {
@@ -795,7 +795,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   #index-header-1 {
     font-size: 2em;
     margin: 2rem 0 2rem;
@@ -876,7 +876,7 @@
 }
 
 /* For screens with a max-width of 300px */
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   #catch-phrase {
     max-width: 100%;
     padding: 0.25rem;
@@ -1001,7 +1001,7 @@
 }
 
 /* For screens with a max-width of 300px */
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   #about .content #my-name {
     margin-top: 0.7rem;
     font-size: 1.5em;
@@ -1239,7 +1239,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   .projects-section {
     padding-left: 15px;
     padding-right: 15px;
@@ -1469,7 +1469,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   #country-box {
     margin-top: -40px;
   }
@@ -1729,7 +1729,7 @@ svg path {
   margin-bottom: 20px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 375px) {
   .country-content-header {
     font-size: 2.2em;
   }
@@ -1936,7 +1936,7 @@ svg path {
   font-size: 3rem;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 375px) {
   #country-us-title-1 {
     font-size: 2em;
   }
@@ -2200,7 +2200,7 @@ svg path {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   .contact-header h1,
   #contact-p {
     padding: 0 20px;
