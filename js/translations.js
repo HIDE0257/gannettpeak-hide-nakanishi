@@ -272,13 +272,15 @@ const translations = {
         },
 
         // Contact.html
+        "contact": {
+            "contact-header-h1": "Contact",
+        },
         "contact-p": {
             "contact-subheading-1": "Let's connect! I'd love to hear your stories and dreams. Please feel free to reach out to me.",
             "contact-subheading-2": "Spread the Word, Ignite the Dream.",
         },
 
-        "contact": {
-            "contact-heading": "Contact",
+        "contact-section": {
             "contact-name": "Name",
             "contact-email": "Email",
             "contact-subject": "Subject",
@@ -563,12 +565,16 @@ const translations = {
         },
 
         // Contact.html
+        "contact": {
+            "contact-header-h1": "コンタクト",
+        },
+
         "contact-p": {
             "contact-subheading-1": "Let's connect! 皆さんのストーリーや夢をぜひお聞かせください。お気軽にご連絡頂ければ幸いです。",
             "contact-subheading-2": "Spread the Word, Ignite the Dream.",
         },
 
-        "contact": {
+        "contact-section": {
             "contact-heading": "コンタクト",
             "contact-name": "名前",
             "contact-email": "メール",
