@@ -1071,6 +1071,7 @@
   text-align: center;
   position: relative;
   padding-bottom: 30px;
+  padding: 20px;
 }
 
 
@@ -1078,7 +1079,7 @@
   padding-top: 45px;
   padding-left: 110px;
   color: rgb(255, 98, 0);
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   text-align: left;
 }
 
