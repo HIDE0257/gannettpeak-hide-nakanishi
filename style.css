@@ -1459,25 +1459,56 @@
   overflow-x: hidden;
 }
 
-#country-box {
+/* #country-box {
   margin-top: 65px;
   display: flex;
+  flex-direction: column; 
   padding-left: 15px;
   font-size: 1.5rem;
-  align-items: center;
+  align-items: flex-start; 
   width: fit-content;
   height: auto;
   text-align: left;
 }
 
-#country-box h4, #country-box h5 {
-  display: inline;
+.box-line {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: nowrap;
+}
+
+#country-box h4,
+#country-box h5 {
+  display: inline-block;
+} */
+
+#country-box {
+  margin-top: 65px;
+  display: flex;
+  /* flex-direction: column; Stack lines vertically */
+  padding-left: 15px;
+  font-size: 1.5rem;
+  align-items: flex-start; /* Align items to the start */
+  width: fit-content;
+  height: auto;
+  text-align: left;
+}
+
+.box-line {
+  display: flex; /* Display elements in line */
+  flex-wrap: nowrap; /* Prevent wrapping within each line */
+}
+
+#country-box h4,
+#country-box h5 {
+  display: inline-block;
 }
 
 @media (max-width: 992px) {
   #country-box {
     margin-top: -40px;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -1492,16 +1523,12 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
   #country-box {
     margin-top: -40px;
+    flex-direction: column;
   }
-
-  #country-box h4, #country-box h5 {
-    display: block;
 }
-}
-
 
 #box-text {
   color: white;
@@ -1510,10 +1537,11 @@
 
 #pinked-country-text {
   color: rgb(246, 179, 246);
+  padding-right: 28px;
 }
 
 #pinked-country-text-2 {
-  padding-left: 28px;
+  /* padding-left: 28px; */
   padding-right: 7px;
   color: pink;
   /* font-size: 1.2rem; */
