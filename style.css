@@ -1075,7 +1075,7 @@
 }
 
 
-#index-contact .contact h1 {
+#index-contact #contact-heading {
   padding-top: 45px;
   padding-left: 110px;
   color: rgb(255, 98, 0);
@@ -1112,6 +1112,63 @@
 #index-contact .contact textarea {
   height: 100px;
   /* Adjust height for textarea if needed */
+}
+
+@media (max-width: 992px) {
+  #index-contact #contact-heading,
+  #contact-p {
+    padding: 0 80px;
+  }
+
+  .contact-form-wrapper {
+    width: 70%; 
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #index-contact #contact-heading,
+  #contact-p {
+    padding: 0 60px;
+  }
+  .contact-form-wrapper {
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  #index-contact #contact-heading,
+  #contact-p {
+    padding: 0 0px;
+  }
+  .contact-form-wrapper {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  #index-contact #contact-heading,
+  #contact-p {
+    padding: 0 0px;
+  }
+  .contact-form-wrapper {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  #index-contact #contact-heading
+  #contact-p {
+    padding: 0 0px;
+  }
+  
+  .contact-form-wrapper {
+    width: 100%;
+    padding: 5px;
+  }
 }
 
 
