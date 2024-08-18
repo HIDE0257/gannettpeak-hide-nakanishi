@@ -1217,7 +1217,7 @@
   padding-right: 100px;
 }
 
-#projects-header-h1 {
+.projects-header h1 {
   color: rgb(221, 85, 0);
   font-size: 3.5rem;
 }
@@ -1354,7 +1354,7 @@
     padding-right: 15px;
   }
 
-  #projects-header-h1 {
+  .projects-header h1 {
     font-size: 2.5rem;
   }
   
@@ -1415,7 +1415,7 @@
     padding-right: 18px;
   }
   
-  #projects-header-h1 {
+  .projects-header h1 {
     font-size: 2.7rem;
   }
 
@@ -1476,7 +1476,7 @@
     padding-right: 20px;
   }
 
-  #projects-header-h1 {
+  .projects-header h1 {
     font-size: 3rem;
   }
   
