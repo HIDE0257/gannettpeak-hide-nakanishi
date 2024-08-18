@@ -857,54 +857,6 @@
   font-size: 3.5rem;
   font-family: 'Apple Chencery', cursive;
 }
-/* For screens with a max-width of 992px */
-@media (max-width: 992px) {
-  #catch-phrase {
-    max-width: 90%;
-    padding: 1rem;
-  }
-
-  #catch-phrase h2 {
-    font-size: 3rem;
-  }
-}
-
-/* For screens with a max-width of 576px */
-@media (max-width: 576px) {
-  #catch-phrase {
-    max-width: 95%;
-    padding: 0.75rem;
-  }
-
-  #catch-phrase h2 {
-    font-size: 2.5rem;
-  }
-}
-
-/* For screens with a max-width of 440px */
-@media (max-width: 440px) {
-  #catch-phrase {
-    max-width: 100%;
-    padding: 0.5rem;
-  }
-
-  #catch-phrase h2 {
-    font-size: 2rem;
-  }
-}
-
-/* For screens with a max-width of 300px */
-@media (max-width: 375px) {
-  #catch-phrase {
-    max-width: 100%;
-    padding: 0.25rem;
-    padding-top: 30px;
-  }
-
-  #catch-phrase h2 {
-    font-size: 1.75rem;
-  }
-}
 
 /* Project Section */
 .index-projects-section .featured-text {
@@ -922,6 +874,7 @@
   padding: 3rem;
   font-size: 1.5rem;
 }
+
 
 @media (min-width: 992px) {
   .index-projects-section .project-text {
@@ -970,69 +923,6 @@
   position: relative;
   text-align: justify;
   text-indent: 40px;
-}
-/* For screens with a max-width of 992px */
-@media (max-width: 992px) {
-  #about .content #my-name {
-    margin-top: 1rem;
-    font-size: 3em;
-    padding-left: 2rem;
-  }
-
-  #about .content #description-of-me,
-  #about .content #description-of-me-2 {
-    font-size: 1.75em;
-    padding-left: 2rem;
-    text-indent: 30px;
-  }
-}
-
-/* For screens with a max-width of 576px */
-@media (max-width: 576px) {
-  #about .content #my-name {
-    margin-top: 0.8rem;
-    font-size: 2.5em;
-    padding-left: 1.5rem;
-  }
-
-  #about .content #description-of-me,
-  #about .content #description-of-me-2 {
-    font-size: 1.5em;
-    padding-left: 1.5rem;
-    text-indent: 20px;
-  }
-}
-
-/* For screens with a max-width of 440px */
-@media (max-width: 440px) {
-  #about .content #my-name {
-    margin-top: 0.8rem;
-    font-size: 2em;
-    padding-left: 1rem;
-  }
-
-  #about .content #description-of-me,
-  #about .content #description-of-me-2 {
-    font-size: 1.25em;
-    padding-left: 1rem;
-    text-indent: 10px;
-  }
-}
-
-/* For screens with a max-width of 300px */
-@media (max-width: 375px) {
-  #about .content #my-name {
-    margin-top: 0.7rem;
-    font-size: 1.5em;
-    padding-left: 0.5rem;
-  }
-
-  #about .content #description-of-me,
-  #about .content #description-of-me-2 {
-    font-size: 1em;
-    padding-left: 0.5rem;
-    text-indent: 5px;
-  }
 }
 
 .photo-of-me {
@@ -1115,6 +1005,32 @@
 }
 
 @media (max-width: 992px) {
+  #catch-phrase {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  #catch-phrase h2 {
+    font-size: 3rem;
+  }
+
+  .index-projects-section .project-text {
+    font-size: 1.5rem;
+  }
+
+  #about .content #my-name {
+    margin-top: 1rem;
+    font-size: 3em;
+    padding-left: 2rem;
+  }
+
+  #about .content #description-of-me,
+  #about .content #description-of-me-2 {
+    font-size: 1.75em;
+    padding-left: 2rem;
+    text-indent: 30px;
+  }
+
   #index-contact #contact-heading,
   #contact-p {
     padding: 0 80px;
@@ -1127,6 +1043,32 @@
 }
 
 @media (max-width: 768px) {
+  #catch-phrase {
+    max-width: 97%;
+    padding: 0.85rem;
+  }
+
+  #catch-phrase h2 {
+    font-size: 2.75rem;
+  }
+
+  .index-projects-section .project-text {
+    font-size: 1.4rem;
+  }
+
+  #about .content #my-name {
+    margin-top: 0.9rem;
+    font-size: 2.85em;
+    padding-left: 1.75rem;
+  }
+
+  #about .content #description-of-me,
+  #about .content #description-of-me-2 {
+    font-size: 1.7em;
+    padding-left: 1.75rem;
+    text-indent: 25px;
+  }
+
   #index-contact #contact-heading,
   #contact-p {
     padding: 0 60px;
@@ -1138,6 +1080,32 @@
 }
 
 @media (max-width: 576px) {
+  #catch-phrase {
+    max-width: 95%;
+    padding: 0.75rem;
+  }
+
+  #catch-phrase h2 {
+    font-size: 2.5rem;
+  }
+
+  .index-projects-section .project-text {
+    font-size: 1.5rem;
+  }
+
+  #about .content #my-name {
+    margin-top: 0.8rem;
+    font-size: 2.8em;
+    padding-left: 1.5rem;
+  }
+
+  #about .content #description-of-me,
+  #about .content #description-of-me-2 {
+    font-size: 1.7em;
+    padding-left: 1.5rem;
+    text-indent: 20px;
+  }
+
   #index-contact #contact-heading,
   #contact-p {
     padding: 0 0px;
@@ -1149,6 +1117,32 @@
 }
 
 @media (max-width: 440px) {
+  #catch-phrase {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  #catch-phrase h2 {
+    font-size: 2rem;
+  }
+
+  .index-projects-section .project-text {
+    font-size: 1.4rem;
+  }
+
+  #about .content #my-name {
+    margin-top: 0.8rem;
+    font-size: 2.4em;
+    padding-left: 1rem;
+  }
+
+  #about .content #description-of-me,
+  #about .content #description-of-me-2 {
+    font-size: 1.5em;
+    padding-left: 1rem;
+    text-indent: 10px;
+  }
+
   #index-contact #contact-heading,
   #contact-p {
     padding: 0 0px;
@@ -1160,6 +1154,33 @@
 }
 
 @media (max-width: 375px) {
+  #catch-phrase {
+    max-width: 100%;
+    padding: 0.25rem;
+    padding-top: 30px;
+  }
+
+  #catch-phrase h2 {
+    font-size: 1.75rem;
+  }
+
+  .index-projects-section .project-text {
+    font-size: 1.2rem;
+  }
+
+  #about .content #my-name {
+    margin-top: 0.7rem;
+    font-size: 2.2em;
+    padding-left: 0.5rem;
+  }
+
+  #about .content #description-of-me,
+  #about .content #description-of-me-2 {
+    font-size: 1.35em;
+    padding-left: 0.5rem;
+    text-indent: 5px;
+  }
+
   #index-contact #contact-heading
   #contact-p {
     padding: 0 0px;
@@ -2202,7 +2223,6 @@ svg path {
   z-index: -1;
 } */
 
-
 .contact-header h1 {
   margin-top: 100px;
   margin-bottom: 25px;
@@ -2274,6 +2294,9 @@ svg path {
 }
 
 @media (max-width: 992px) {
+  .contact-header h1 {
+    margin-top: 0;
+  }
   .contact-header h1,
   #contact-p {
     padding: 0 80px;
@@ -2286,6 +2309,9 @@ svg path {
 }
 
 @media (max-width: 768px) {
+  .contact-header h1 {
+    margin-top: 0;
+  }
   .contact-header h1,
   #contact-p {
     padding: 0 60px;
@@ -2297,6 +2323,10 @@ svg path {
 }
 
 @media (max-width: 576px) {
+  .contact-header h1 {
+    margin-top: 0;
+  }
+
   .contact-header h1,
   #contact-p {
     padding: 0 40px;
@@ -2308,6 +2338,10 @@ svg path {
 }
 
 @media (max-width: 440px) {
+  .contact-header h1 {
+    margin-top: 0;
+  }
+
   .contact-header h1,
   #contact-p {
     padding: 0 30px;
@@ -2319,6 +2353,10 @@ svg path {
 }
 
 @media (max-width: 375px) {
+  .contact-header h1 {
+    margin-top: 0;
+  }
+  
   .contact-header h1,
   #contact-p {
     padding: 0 20px;
