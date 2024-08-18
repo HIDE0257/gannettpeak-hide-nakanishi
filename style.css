@@ -1509,7 +1509,6 @@
   #country-box {
     margin-top: -40px;
   }
-
 }
 
 @media (max-width: 576px) {
@@ -1524,10 +1523,15 @@
   }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   #country-box {
     margin-top: -40px;
     flex-direction: column;
+  }
+
+  #country-box h4,
+  #country-box h5 {
+    display: block;
   }
 }
 
