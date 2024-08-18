@@ -1470,6 +1470,10 @@
   text-align: left;
 }
 
+#country-box h4, #country-box h5 {
+  display: inline;
+}
+
 @media (max-width: 992px) {
   #country-box {
     margin-top: -40px;
@@ -1492,7 +1496,12 @@
   #country-box {
     margin-top: -40px;
   }
+
+  #country-box h4, #country-box h5 {
+    display: block;
 }
+}
+
 
 #box-text {
   color: white;
