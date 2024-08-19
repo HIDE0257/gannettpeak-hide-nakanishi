@@ -62,86 +62,14 @@
     </nav>
 
 
-    <header class="projects-header">
-        <div id="projects-header">
-            <a href="#projects-list-section" style="text-decoration: none;"> <h1 id="projects-header-h1"> Projects </h1></a>
-        </div>
 
-        <!-- Social Icons -->
-        <div class="social-link-container">
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/hideyuki-nakanishi/" target="_blank">
-                    <img src="assets/LinkedIn Log.png" alt="LinkedIn Logo" class="social-icon" id="projects-linkedin">
-                </a>
-        
-                <a href="https://github.com/HIDE0257/Academic-Project-Profile" target="_blank">
-                    <img src="assets/github-mark-white.png" alt="GitHub Logo" class="social-icon" id="projects-github">
-                </a>
-            </div>
+    <header>
+        <div class="projects-header">
+            <h1 id="projects-header-h1"> Projects</h1>
         </div>
     </header>
 
-    <!-- Projects List -->
-    <section class="projects-list-section">
-        <!-- Personal Website -->
-        <div class="projects-list" onclick="toggleDescription('portfolio')" id="projects-list-portfolio">
-            <div class="projects-list-image">
-                <img src="assets/WHR/R-portfolio.jpg" loading="lazy">
-            </div>
-            <div class="projects-list-details">
-                <h3 class="projects-list-name" id="portfolio-projects-list-name"> Personal Web Development </h3>
-                <p class="projects-list-summary" id="portfolio-projects-list-sum"> </p>
-                <div class="learn-link">
-                    <a href="#portfolio" class="learn-more" id="learn-more-portfolio"> Learn more </a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- USLI -->
-        <div class="projects-list" onclick="toggleDescription('USLI')" id="projects-list-USLI">
-            <div class="projects-list-image">
-                <img src="assets/Projects-List/USLI.JPG" loading="lazy">
-            </div>
-            <div class="projects-list-details">
-                <h3 class="projects-list-name" id="USLI-projects-list-name">2024 NASA Student Launch</h3>
-                <p class="projects-list-summary" id="USLI-projects-list-sum"> </p>
-                <div class="learn-link">
-                    <a href="#USLI" class="learn-more" id="learn-more-USLI"> Learn more </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- GNSS -->
-        <div class="projects-list" onclick="toggleDescription('GNSS')" id="projects-list-GNSS">
-            <div class="projects-list-image">
-                <img src="assets/Projects-List/GNSS.JPG" loading="lazy">
-            </div>
-            <div class="projects-list-details">
-                <h3 class="projects-list-name" id="GNSS-projects-list-name"> GNSS-IR Remote Water Sensing Device </h3>
-                <p class="projects-list-summary" id="GNSS-projects-list-sum"> </p>
-                <div class="learn-link">
-                    <a href="#GNSS-IR Remote Water Sensing Device" class="learn-more" id="learn-more-GNSS"> Learn more </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Space Hinge -->
-        <div class="projects-list" onclick="toggleDescription('space-hinge-research')" id="projects-list-space-hinge">
-            <div class="projects-list-image">
-                <img src="assets/Projects-List/Space-Hinge.JPG" loading="lazy">
-            </div>
-            <div class="projects-list-details">
-                <h3 class="projects-list-name" id="space-hinge-projects-list-name"> Deployable Space Hinge Research </h3>
-                <p class="projects-list-summary" id="space-hinge-projects-list-sum"> </p>
-                <div class="learn-link">
-                    <a href="#space-hinge-research" class="learn-more" id="learn-more-space-hinge"> Learn more </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Individual Projects Description -->
-     <!-- Portfolio -->
+    <!-- Portfolio -->
     <section class="projects-section" id="portfolio">
         <div class="projects-name">
             <h2 class="projects-title" id="portfolio-projects-name"> Personal Website </h2>
@@ -179,9 +107,6 @@
 
                 </p>
             </div>
-        </div>
-        <div class="back">
-            <a href="#projects-list-portfolio" class="back-to-timeline" onclick="backToList()"> Back </a>
         </div>
     </section>
 
@@ -232,19 +157,10 @@
 
                 </p>
 
-                <div> 
-                    <a class="news-link"
-                    href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-announces-winners-of-2024-student-launch-competition/" target="_blank">
-                    NASA Release
-                    </a>
-                </div>
-                <div> 
-                    <a class="news-link"
+                <a class="news-link"
                     href="https://www.colorado.edu/aerospace/2024/07/08/cu-boulder-rocket-team-picks-high-honors-nasa-launch-competition" target="_blank">
                     CU News 
                 </a>
-                </div>
-                
             </div>
         </div>
 
@@ -253,14 +169,10 @@
                 <p><a href="documents/USLI/Poster.pdf"></a></p>
             </iframe>
         </div>
-
-        <div class="back">
-            <a href="#projects-list-USLI" class="back-to-timeline" onclick="backToList()"> Back </a>
-        </div>
     </section>
 
     <!-- Senior Project -->
-    <section class="projects-section" id="GNSS">
+    <section class="projects-section" id="GNSS-IR Remote Water Sensing Device">
         <div class="projects-name">
             <h2 class="projects-title" id="GNSS-projects-name"><b>GNSS-IR Remote Water Sensing Device</b></h2>
             <h3 class="projects-position-period" id="GNSS-projects-position-period">
@@ -306,10 +218,6 @@
                 <p><a href="documents/Senior Design/Final-Presentation.pdf"></a></p>
             </iframe>
         </div>
-
-        <div class="back">
-            <a href="#projects-list-GNSS" class="back-to-timeline" onclick="backToList()"> Back </a>
-        </div>
     </section>
 
     <!-- Space Hinge Research -->
@@ -349,12 +257,22 @@
                 
             </p> 
         </div>
-
-        <div class="back">
-            <a href="#projects-list-space-hinge" class="back-to-timeline" onclick="backToList()"> Back </a>
-        </div>
     </section>
 
+    <!-- Social Icons -->
+    <section id="social-link-position">
+        <div class="social-link-container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/hideyuki-nakanishi/" target="_blank">
+                    <img src="assets/LinkedIn Log.png" alt="LinkedIn Logo" class="social-icon" id="projects-linkedin">
+                </a>
+        
+                <a href="https://github.com/HIDE0257/Academic-Project-Profile" target="_blank">
+                    <img src="assets/github-mark-white.png" alt="github" class="social-icon" id="projects-github">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- js bootstrap puuled from https://getbootstrap.com/doc/ -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -365,7 +283,6 @@
         </script>
     <script src="js/lang.js"></script>
     <script src="js/translations.js"></script>
-    <script src="js/projects-learnmore.js"></script>
 </body>
 
 </html>
