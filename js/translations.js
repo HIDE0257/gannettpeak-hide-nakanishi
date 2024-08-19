@@ -37,6 +37,32 @@ const translations = {
             "projects-header-h1":"Projects"
         },
 
+        // Project List
+        "projects-list-portfolio": {
+            "portfolio-projects-list-name": "Personal Web Development",
+            "portfolio-projects-list-sum": "I created my own website from scratch, using the classic web programming languages HTML, CSS, and JavaScript. On this website, I showcase everything I have accomplished throughout my engineering career and who I am.",
+            "learn-more-portfolio": "Learn more",
+        },
+
+        "projects-list-USLI": {
+            "USLI-projects-list-name": "2024 NASA Student Launch",
+            "USLI-projects-list-sum": "Although it was a very challenging project, all the individual CU in Space team members, including myself, addressed every difficulty and accomplished the mission. All our hard work is packed in here. Check it out!",
+            "learn-more-USLI": "Learn more",
+        },
+
+        "projects-list-GNSS": {
+            "GNSS-projects-list-name": "GNSS-IR Remote Water Sensing Device",
+            "GNSS-projects-list-sum": "This is my senior design project related to Earth Science at CU Boulder. Throughout the project, I learned how much aerospace technologies could contribute to saving our planet. It was designed as an open-source project, so take a look at the work we've done!",
+            "learn-more-GNSS": "Learn more",
+        }, 
+
+        "projects-list-space-hinge": {
+            "space-hinge-projects-list-name": "Deployable Space Hinge Research",
+            "space-hinge-projects-list-sum": "During school, I contributed to research and develop reliable, lightweight deployable space structures. This dedicated work helped me enhance my technical skills in testing.",
+            "learn-more-space-hinge": "Learn more",
+        }, 
+
+        // Project Detail
         "portfolio": {
             "portfolio-projects-name": "Personal Web Development",
             "portfolio-projects-position-period": "Web Developer (Jul 2024 - Aug 2024)",
@@ -328,6 +354,32 @@ const translations = {
             "projects-header-h1": "プロジェクト"
         },
 
+        // Project List
+        "projects-list-portfolio": {
+            "portfolio-projects-list-name": "個人用Web開発",
+            "portfolio-projects-list-sum": "HTML、CSS、JavaScriptというWeb用プログラミング言語を使って、自分のウェブサイトをゼロから作成しました。このウェブサイトでは、僕のエンジニアリングキャリアで達成したすべての成果と僕自身を紹介しています。",
+            "learn-more-portfolio": "詳細はこちら",
+        },
+
+        "projects-list-USLI": {
+            "USLI-projects-list-name": "2024 NASA ロケット大会",
+            "USLI-projects-list-sum": "非常に難しプロジェクトでしたが、私自身を含むCU in Spaceのチームメンバー全員があらゆる問題に対処し、ミッションを達成させました。僕たちの努力の結晶がここに詰まっています。ぜひご覧ください！",
+            "learn-more-USLI": "詳細はこちら",
+        },
+
+        "projects-list-GNSS": {
+            "GNSS-projects-list-name": "GNSS-IRを活用した遠隔水位測定装置",
+            "GNSS-projects-list-sum": "これはCUボルダーでの地球科学に関連する僕の卒業プロジェクトです。このプロジェクトを通して、航空宇宙技術がどれほど地球を守るのに貢献できるかを学びました。オープンソースを目的としたプロジェクトですので、ぜひ僕たちの成果をご覧ください！",
+            "learn-more-GNSS": "詳細はこちら",
+        }, 
+
+        "projects-list-space-hinge": {
+            "space-hinge-projects-list-name": "展開型宇宙用ヒンジ研究",
+            "space-hinge-projects-list-sum": "在学中、僕は信頼性が高く、軽量で展開可能な宇宙構造物の研究と開発に貢献しました。この専念した作業を通して、テストにおける技術的スキルを向上させることができました。",
+            "learn-more-space-hinge": "詳細はこちら",
+        }, 
+
+        // Project Detail
         "portfolio": {
             "portfolio-projects-name": "個人用Web開発",
             "portfolio-projects-position-period": "Web開発者 (2024年7月 - 2024年8月)",
